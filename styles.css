@@ -26,6 +26,14 @@ button {
     background-color: #025157;
 }
 
+.fixed-heder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
 .header{
     margin: 40px 20px 0;
     font-size: 0%;
@@ -82,4 +90,71 @@ button {
     width: 80%;
     max-width: 1000;
 
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.publish {
+    padding: 10px;
+    flex: 1;
+}
+
+.publish h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.publish .texto-publish {
+    color: #343434;
+}
+
+.publish .texto-gris-publish {
+
+}
+
+.publish .signup-form input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250;
+    height: 75%;
+    border-radius: 8px;
+}
+
+.publish .signup-form button {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 6px 20px;
+    margin-left: -10px;
+    height: 100%;
+}
+
+.publish .signup-form {
+    height: 55px;
 }
